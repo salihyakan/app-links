@@ -1,0 +1,39 @@
+{
+  "habitrive": {
+    "name": "HabitRive",
+    "tagline": "Alışkanlık ve hedef takibi",
+    "description": "Alışkanlık takibi, hedef belirleme, AI koçluk ve arkadaşlarla yarışma bir arada.",
+    "status": "live",
+    "icon": "assets/icons/habitrive.png",
+    "theme": "habitrive",
+    "appStoreUrl": "https://apps.apple.com/us/app/habitrive/id6779247747",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.habitrive.app",
+    "socials": [
+      { "platform": "instagram", "url": "https://www.instagram.com/habitrive/" },
+      { "platform": "x", "url": "https://x.com/habitrive" },
+      { "platform": "tiktok", "url": "https://www.tiktok.com/@habitrive" }
+    ]
+  },
+  "yonetimo": {
+    "name": "Yönetimo",
+    "tagline": "Çok yakında",
+    "description": "",
+    "status": "soon",
+    "icon": "assets/icons/yonetimo.png",
+    "theme": "yonetimo",
+    "appStoreUrl": "",
+    "playStoreUrl": "",
+    "socials": []
+  },
+  "charmelo": {
+    "name": "Charmelo",
+    "tagline": "Çok yakında",
+    "description": "",
+    "status": "soon",
+    "icon": "assets/icons/charmelo.png",
+    "theme": "charmelo",
+    "appStoreUrl": "",
+    "playStoreUrl": "",
+    "socials": []
+  }
+}
