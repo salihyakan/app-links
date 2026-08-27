@@ -26,7 +26,7 @@
       document.body.classList.add("theme-" + (app.theme || slug));
       document.title = app.name;
 
-      document.getElementById("icon").src = app.icon;
+      document.getElementById("icon").src = "../" + app.icon;
       document.getElementById("name").textContent = app.name;
       document.getElementById("tagline").textContent = app.tagline;
 
