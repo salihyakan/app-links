@@ -1,8 +1,8 @@
 {
   "habitrive": {
     "name": "HabitRive",
-    "tagline": "Alışkanlık ve hedef takibi",
-    "description": "Alışkanlık takibi, hedef belirleme, AI koçluk ve arkadaşlarla yarışma bir arada.",
+    "tagline": "Habit & goal tracking",
+    "description": "Habit tracking, goal setting, AI coaching, and friendly competition — all in one place.",
     "status": "live",
     "icon": "assets/icons/habitrive.png",
     "theme": "habitrive",
@@ -16,7 +16,7 @@
   },
   "yonetimo": {
     "name": "Yönetimo",
-    "tagline": "Çok yakında",
+    "tagline": "Coming soon",
     "description": "",
     "status": "soon",
     "icon": "assets/icons/yonetimo.png",
@@ -27,7 +27,7 @@
   },
   "charmelo": {
     "name": "Charmelo",
-    "tagline": "Çok yakında",
+    "tagline": "Coming soon",
     "description": "",
     "status": "soon",
     "icon": "assets/icons/charmelo.png",

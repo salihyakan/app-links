@@ -12,8 +12,8 @@
       '<div class="app-card-body"><h2>' + app.name + "</h2>" +
       '<p class="tagline">' + app.tagline + "</p></div>" +
       (app.status === "live"
-        ? '<span class="pill live"><span class="dot"></span>Canlı</span>' + chevronSvg()
-        : '<span class="pill soon">Yakında</span>')
+        ? '<span class="pill live"><span class="dot"></span>Live</span>' + chevronSvg()
+        : '<span class="pill soon">Soon</span>')
     );
   }
 

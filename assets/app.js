@@ -64,14 +64,14 @@
 
     if (app.status !== "live") {
       container.innerHTML =
-        '<p class="soon-note">' + app.name + " çok yakında App Store ve Google Play'de. Hazır olduğunda bu sayfa otomatik yönlendirmeye başlayacak.</p>";
+        '<p class="soon-note">' + app.name + " is launching soon on the App Store and Google Play. This page will start redirecting automatically once it's live.</p>";
       return;
     }
 
     container.innerHTML =
       '<div class="redirect-card">' +
       '<div class="status" id="status" role="status" aria-live="polite">' +
-      '<span class="spinner" id="spinner"></span><span id="statusText">Cihazın kontrol ediliyor…</span></div>' +
+      '<span class="spinner" id="spinner"></span><span id="statusText">Checking your device…</span></div>' +
       '<div class="actions">' +
       '<a class="store-btn" id="btnIos" href="' + app.appStoreUrl + '" rel="noopener">' +
       SOCIAL_ICONS.appstore +
@@ -80,7 +80,7 @@
       SOCIAL_ICONS.play +
       '<span class="btn-label"><span>Google Play</span><small>Android</small></span></a>' +
       "</div>" +
-      '<p class="footnote">Otomatik yönlendirme çalışmazsa yukarıdaki butona dokun.</p>' +
+      '<p class="footnote">If it doesn\'t redirect automatically, tap a button above.</p>' +
       "</div>";
 
     var ua = navigator.userAgent || "";
@@ -94,16 +94,16 @@
 
     setTimeout(function () {
       if (isIOS) {
-        statusText.textContent = "iPhone algılandı, App Store'a yönlendiriliyorsun…";
+        statusText.textContent = "iPhone detected, redirecting you to the App Store…";
         btnIos.classList.add("primary");
         setTimeout(function () { window.location.href = btnIos.href; }, reduceMotion ? 0 : 700);
       } else if (isAndroid) {
-        statusText.textContent = "Android algılandı, Google Play'e yönlendiriliyorsun…";
+        statusText.textContent = "Android detected, redirecting you to Google Play…";
         btnAndroid.classList.add("primary");
         setTimeout(function () { window.location.href = btnAndroid.href; }, reduceMotion ? 0 : 700);
       } else {
         spinner.style.display = "none";
-        statusText.textContent = "Cihazını algılayamadık, aşağıdan seç:";
+        statusText.textContent = "Couldn't detect your device — pick one below:";
       }
     }, reduceMotion ? 0 : 900);
   }
