@@ -17,13 +17,13 @@
   },
   "yonetimo": {
     "name": "Yönetimo",
-    "tagline": "Coming soon",
-    "description": "",
-    "status": "soon",
+    "tagline": "Apartment & building management",
+    "description": "Dues tracking, announcements, voting, maintenance requests, and expense records — transparent for managers and residents alike.",
+    "status": "live",
     "icon": "assets/icons/yonetimo.png",
     "theme": "yonetimo",
-    "appStoreUrl": "",
-    "playStoreUrl": "",
+    "appStoreUrl": "https://apps.apple.com/us/app/yonetimo/id6784320921",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yonetimo.yonetimo",
     "socials": []
   },
   "charmelo": {
