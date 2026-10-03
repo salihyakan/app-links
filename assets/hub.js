@@ -17,7 +17,7 @@
     );
   }
 
-  fetch("assets/apps.json")
+  fetch("assets/apps.json", { cache: "no-cache" })
     .then(function (r) { return r.json(); })
     .then(function (apps) {
       var grid = document.getElementById("appGrid");

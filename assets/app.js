@@ -19,7 +19,7 @@
   var slug = document.body.dataset.slug;
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  fetch("../assets/apps.json")
+  fetch("../assets/apps.json", { cache: "no-cache" })
     .then(function (r) { return r.json(); })
     .then(function (apps) {
       var app = apps[slug];
